@@ -1,0 +1,30 @@
+
+{
+    "name": "linkorb/interlink",
+    "description": "Interlink parser",
+    "keywords": ["interlink", "interwiki", "intermap", "wiki", "link", "parser"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "homepage": "http://www.linkorb.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/linkorb/interlink/issues"
+    },
+    "require": {
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "~4.2"
+    },
+    "bin": ["bin/interlink"],
+    "autoload": {
+        "psr-4": {
+            "Interlink\\": "src/"
+        }
+    }
+}
