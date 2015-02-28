@@ -46,7 +46,7 @@ Or make a REST API call to a webservice to convert a bugid into a readable summa
 Simply add the following to your `require` or `require-dev` section in your [composer.json](http://getcomposer.org) and run `composer update`:
 ```json
 "require": {
-  "linkorb/haigha": "~1.0"
+  "linkorb/interlink": "~1.0"
 }
 ```
 
