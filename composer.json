@@ -19,7 +19,7 @@
     "require": {
     },
     "require-dev": {
-        "guzzlehttp/guzzle": "~4.2"
+        "guzzlehttp/guzzle": "~4.2 || ~7.0"
     },
     "bin": ["bin/interlink"],
     "autoload": {
