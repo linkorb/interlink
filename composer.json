@@ -1,4 +1,3 @@
-
 {
     "name": "linkorb/interlink",
     "description": "Interlink parser",
@@ -16,10 +15,9 @@
     "support": {
         "issues": "https://github.com/linkorb/interlink/issues"
     },
-    "require": {
-    },
     "require-dev": {
-        "guzzlehttp/guzzle": "~4.2 || ~7.0"
+        "guzzlehttp/guzzle": "~4.2 || ~7.0",
+        "phpunit/phpunit": "^9.6"
     },
     "bin": ["bin/interlink"],
     "autoload": {
